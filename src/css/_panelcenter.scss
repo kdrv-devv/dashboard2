@@ -1,0 +1,131 @@
+$grey: #a2a2a2;
+$red: red;
+$green: rgb(8, 165, 8);
+$black: #656575;
+.dashboard-center {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  width: 288px;
+}
+
+.dashboard-center-header {
+  padding: 32px 0;
+  h4 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: $black;
+  }
+  p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 129%;
+    color: $grey;
+  }
+}
+
+.income-div {
+  border-radius: 8px;
+  box-shadow: 0 8px 24px 0 rgba(69, 69, 80, 0.1);
+  background: #fdfdfd;
+  width: 288px;
+  height: 190px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  .income-center {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    h3 {
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 143%;
+      color: #01150c;
+    }
+    h6 {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 175%;
+      letter-spacing: -0.01em;
+      color: $red;
+    }
+  }
+  h5 {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 171%;
+    color: $grey;
+  }
+  .income-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    h5 {
+      font-family: var(--font-family);
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 171%;
+      color: $grey;
+    }
+  }
+}
+.income-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  h6 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 133%;
+    color: $grey;
+  }
+  button {
+    border-radius: 2px;
+    padding: 4px 8px;
+    width: 52px;
+    height: 24px;
+    background: #f4f5f7;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 133%;
+    text-align: right;
+    color: $grey;
+  }
+}
+.hire-div {
+  border-radius: 8px;
+  padding: 20px;
+  width: 288px;
+  box-shadow: 0 8px 24px 0 rgba(69, 69, 80, 0.1);
+  background: #fdfdfd;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+
+  .hire-bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    .hire-bottom-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      h4 {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: $black;
+      }
+      h5 {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: $black;
+      }
+    }
+  }
+}

@@ -1,0 +1,348 @@
+$grey: #a2a2a2;
+$red: red;
+$green: rgb(8, 165, 8);
+$black: #656575;
+
+.dashboard-right {
+  width: 96%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+}
+.right-header {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 40px;
+  button {
+    background-color: transparent;
+    color: grey;
+    font-size: 20px;
+  }
+  form {
+    border-radius: 12px;
+    padding: 12px 24px 12px 32px;
+    box-shadow: 0 3px 27px 0 rgba(69, 69, 80, 0.1);
+    background: #fff;
+    width: 366px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    input {
+      border: none;
+      font-size: 16px;
+      color: grey;
+    }
+    button {
+      background-color: transparent;
+      font-size: 17px;
+      color: grey;
+    }
+  }
+}
+
+.car {
+  border-radius: 8px;
+  margin-top: 33px;
+  width: 850px;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 28px;
+  box-shadow: 0 8px 24px 0 rgba(69, 69, 80, 0.1);
+  background: #fff;
+}
+
+.car-bottom {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+}
+
+.car-number {
+  border: 1px solid #dedede;
+  border-radius: 8px;
+  padding: 12px 16px;
+  width: 213px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  button {
+    font-size: 18px;
+    color: #656575;
+    background-color: transparent;
+  }
+  h5 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: $grey;
+  }
+}
+
+.two-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .div-left {
+    border: 1px solid #dedede;
+    border-radius: 8px 0 0 8px;
+    padding: 12px 16px;
+    width: 188px;
+    display: flex;
+    align-items: center;
+    height: 48px;
+    gap: 10px;
+    button {
+      background-color: transparent;
+      font-size: 18px;
+      color: $grey;
+    }
+    h5 {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      color: $grey;
+    }
+  }
+  .div-right {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #dedede;
+    border-radius: 0 8px 8px 0;
+    padding: 12px 16px;
+    width: 167px;
+    height: 48px;
+    button {
+      background-color: transparent;
+      font-size: 18px;
+      color: $grey;
+    }
+    h5 {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      color: $grey;
+    }
+  }
+}
+.check {
+  border-radius: 4px;
+  padding: 4px 16px;
+  width: 120px;
+  height: 46px;
+  background: #006aff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #fff;
+}
+
+// start live section
+
+.live {
+  border-radius: 8px;
+  padding: 32px 28px 24px 28px;
+  width: 850px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  box-shadow: 0 8px 24px 0 rgba(101, 101, 117, 0.05);
+}
+
+.live-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  h4 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: $black;
+  }
+  h6 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    text-transform: capitalize;
+    color: $grey;
+  }
+}
+
+.live-header {
+  display: flex;
+  align-items: center;
+  gap: 180px;
+  .live-header-left {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    h6 {
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 129%;
+      color: $grey;
+    }
+  }
+  .live-header-right {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    h5 {
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 129%;
+      color: $grey;
+    }
+  }
+}
+
+.live-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  h5 {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 133%;
+    text-align: center;
+    color: $black;
+  }
+  button {
+    border-radius: 4px;
+    padding: 4px 12px;
+    width: 66px;
+    height: 24px;
+    background: rgba(153, 153, 153, 0.1);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 114%;
+    text-align: center;
+    color: $black;
+  }
+  .human {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    h6 {
+      font-weight: 400;
+      font-size: 16px;
+      color: $black;
+    }
+  }
+  .completed {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    h6 {
+      font-weight: 300;
+      font-size: 16px;
+      color: $grey;
+    }
+  }
+  .price {
+    h5 {
+      font-weight: 300;
+      font-size: 16px;
+      color: $grey;
+    }
+  }
+  .detalis {
+    border-radius: 4px;
+    padding: 4px 16px;
+    width: 84px;
+    height: 32px;
+    background: #006aff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #fff;
+  }
+}
+
+// summary
+
+.summary {
+  border-radius: 8px;
+  padding: 32px 28px 24px 28px;
+  width: 854px;
+  height: 286px;
+  box-shadow: 0 8px 24px 0 rgba(69, 69, 80, 0.1);
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.summary-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .summary-header-left {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    h5 {
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 150%;
+      color: $black;
+    }
+    h6 {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 133%;
+      color: $grey;
+    }
+  }
+  .summary-header-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    .month {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      h6 {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 133%;
+        color: $grey;
+      }
+    }
+  }
+}
+
+.summary-body {
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  .summary-body-left {
+
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    h5 {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 133%;
+      color: $grey;
+    }
+  }
+  .summary-body-right{
+    width: 100%;
+  }
+
+
+}
